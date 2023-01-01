@@ -1,0 +1,82 @@
+div.kalameg{
+    width: 90%;
+    height: 410px;
+    margin-right: 92px;
+    position: relative;
+    margin-top: 40px;
+}
+div.kalameg>div.mtn0{
+    position: absolute;
+    top:-40px;
+    right: 35px;
+}
+div.kalameg>div.mtn0>h4{
+    font-family: iranyekanwebregular;
+    color: black
+}
+div.kalameg>div.link{
+    width: 215px;
+    height: 50px;
+    position: absolute;
+    top: -40px;
+    left: 35px;
+}
+div.kalameg>div.link>h5{
+    text-decoration: none;   
+    font-family: iranyekanwebregular;
+    color: rgb(85, 85, 255);;
+}
+div.kalameg>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    padding: 10px;
+}
+div.kalameg>div>img{
+    width: 290px;
+    height: 196px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+div.kalameg>div.mtn1{
+   height: 70px;
+   width: 266px;
+   border: 2px solid lightgrey;
+   position: absolute;
+   top: 215px;
+   border-radius: 0 0 18px 18px;
+   right: 20px;
+}
+div.kalameg>div.mtn2{
+    height: 70px;
+    width: 266px;
+    border: 2px solid lightgrey;
+    position: absolute;
+    top: 216px;
+    border-radius: 0 0 18px 18px;
+    right: 354px;
+}
+div.kalameg>div.mtn3{
+    height: 70px;
+    width: 266px;
+    border: 2px solid lightgrey;
+    position: absolute;
+    top: 216px;
+    border-radius: 0 0 18px 18px;
+    left: 379px;
+}
+div.kalameg>div.mtn4{
+    height: 70px;
+    width: 266px;
+    border: 2px solid lightgrey;
+    position: absolute;
+    top: 216px;
+    border-radius: 0 0 18px 18px;
+    left: 43px;
+}
+div.kalameg>div.mtn1>p, div.kalameg>div.mtn2>p,div.kalameg>div.mtn3>p,div.kalameg>div.mtn4>p{
+   font-family: iranyekanwebregular;
+   font-size: 12px;
+   line-height: 30px;
+}

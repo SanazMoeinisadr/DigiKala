@@ -1,0 +1,44 @@
+div.daste {
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  div.daste h3 {
+    color: #0c0c0c;
+    text-align: center;
+    font-size: 20px;
+    margin: 46px 0;
+    font-family: iranyekanwebregular;
+    transition: 250ms;
+  }
+  div.daste h3:hover{
+    color: green;
+    transition: 250ms;
+    font-size: 23px;
+}
+  div.daste > div.top {
+    margin-bottom: 20px;
+  }
+  div.daste > div.top > div {
+    display: inline-block;
+  }
+ div.daste > div.top > div > p,
+ div.daste > div.bottom > div > p {
+    font-family: iranyekanwebregular;
+    font-size: 13px;
+  }
+  div.daste > div.top > div > img {
+    border-radius: 6px;
+    width: 170px;
+    height: 170px;
+    padding: 10px 30px 10px 30px;
+  }
+  div.daste > div.bottom > div {
+    display: inline-block;
+  }
+  div.daste > div.bottom > div > img {
+    border-radius: 6px;
+    width: 170px;
+    height: 170px;
+    padding: 10px 30px 10px 30px;
+  }

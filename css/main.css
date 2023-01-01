@@ -1,0 +1,114 @@
+@import "menu.css";
+@import "setting.css";
+@import "slider.css";
+@import "services.css";
+@import "amazing.css";
+@import "market.css";
+@import "daste.css";
+@import "offer.css";
+@import "banafsh.css";
+@import "abi.css";
+@import "border1.css";
+@import "border2.css";
+@import "border4.css";
+@import "kalameg.css";
+@import "digiend.css";
+@import "digiend2.css";
+@import "abi2.css";
+@import "last.css";
+@import "border5.css";
+@import "banner.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+/* make header*/
+
+div.wrapper header{
+    width: 100%;
+    height: 55px;
+    background: url('../images/im1.jpg') no-repeat;
+    background-size: cover;
+}
+/* end header*/
+
+/* make logo*/
+
+div.banner > img.logo{
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align:middle;
+}
+/* end logo*/
+
+/* make takhfif*/
+
+div.takhfif>img{
+    width: 312px;
+    height: 234px;
+    border-radius: 20px;
+    margin-right: 45px;
+    box-sizing: border-box;
+    transition: 250ms;
+}
+div.takhfif>img:hover{
+    transition: 250ms;
+    box-shadow: 3px 3px 3px grey;
+}
+/* end takhfif*/
+
+/* make takhfif2*/
+
+div.takhfif2{
+margin: 24px auto 24px auto;
+text-align: center;
+}
+div.takhfif2 > img{
+    width: 641px;
+    height: 256px;
+    border-radius: 16px;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+div.takhfif2 > img:hover{
+    transition: 250ms;
+    box-shadow: 2px 2px 2px grey;
+}
+/* end takhfif2*/
+
+/* make takhfif3 */
+
+div.takhfif3{
+    margin-bottom: 35px;
+    text-align: center;
+}
+div.takhfif3 > img{
+    width: 641px;
+    height: 256px;
+    border-radius: 16px;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+div.takhfif3 > img:hover{
+    transition: 250ms;
+    box-shadow: 2px 2px 2px grey;
+}
+/* end takhfif3 */
+
+/* make gif */
+div.gif{
+margin: 20px auto;
+text-align: center;
+}
+div.gif>img{
+    width: 85%;
+    height: 162px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* end gif */

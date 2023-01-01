@@ -1,0 +1,219 @@
+div.border4{
+    width: 85%;
+    height: 860px;
+    border: 1px solid lightgray;
+    margin: 35px auto;
+    border-radius: 15px;
+    position: relative;    
+}
+div.border4>div.nvshte{
+    display: inline-block;
+    position: absolute;
+    left: 580px;
+    bottom: 15px;
+}
+div.border4>div.nvshte>a{
+    font-family: iranyekanwebregular;
+    color:rgb(56, 193, 218);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+div.border4>div.logo8>img{
+    position: absolute;
+    left: 780px;
+    top: 25px;
+    display: inline-block;
+}
+div.border4>div.logo8>h3{
+    text-align: center;
+    font-family: iranyekanwebregular;
+    margin-top:22px;
+}
+div.border4>div.right{
+    width: 600px;
+    height: 260px;
+    margin-right: 35px;
+    margin-top: 25px;
+    display: inline-block;
+}
+div.border4>div.right::after{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    width: 1px;
+    height: 710px;
+    position: absolute;
+    top: 64px;
+    right: 220px;
+}
+div.border4>div.right::before{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    width: 97%;
+    height: 1px;
+    position: absolute;
+    top: 310px;
+    right: 19px;
+}
+div.border4>div.right>div.top::after{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    width: 1px;
+    height: 710px;
+    position: absolute;
+    top: 64px;
+    left: 875px;
+}
+div.border4>div.middle{
+    width: 600px;
+    height: 260px;
+    margin-right: 35px;
+    margin-top: 25px;
+    position: absolute;
+    display: inline-block;
+}
+div.border4>div.middle::after{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    width: 1px;
+    height: 710px;
+    position: absolute;
+    top: -20px;
+    left: 220px;
+}
+div.border4>div.middle::before{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    width: 1px;
+    height: 710px;
+    position: absolute;
+    bottom: -440px;
+    right: -35px;
+}
+div.border4>div.middle>div.top::after{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    width: 1px;
+    height: 710px;
+    position: absolute;
+    top: -18px;
+    left: 410px;
+}
+div.border4>div.middle>div.top::before{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    width: 1240px;
+    height: 1px;
+    position: absolute;
+    top: 480px;
+    left: 7px;
+}
+div.border4>div.end{
+    width: 600px;
+    height: 260px;
+    margin-right: 35px;
+    margin-top: 25px;
+    position: absolute;
+    display: inline-block;
+}
+div.border4>div.right>div.top,div.border4>div.middle>div.top{
+    width: 560px;
+    height: 230px;
+}
+div.border4>div.right>div.top>div,div.border4>div.middle>div.top>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+div.border4>div.right>div.top>div>img,div.border4>div.middle>div.top>div>img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 19px;
+    display: inline-block;
+}
+div.border4>div.right>div.top>div>p,div.border4>div.middle>div.top>div>p,div.border4>div.right>div.bottom>div>p,div.border4>div.middle>div.bottom>div>p,
+div.right>div.end>div>p,div.border4>div.middle>div.end>div>p{
+    font-family: iranyekanwebregular;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+}
+div.border4>div.right>div.top>div>p>span,div.border4>div.middle>div.top>div>p>span,div.border4>div.right>div.bottom>div>p>span,div.border4>div.middle>div.bottom>div>p>span,
+div.right>div.end>div>p>span,div.border4>div.middle>div.end>div>p>span{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    position: relative;
+    top: 5px;
+    left: 2px;
+}
+div.border4>div.right>div.top>div>p>span>img,div.border4>div.middle>div.top>div>p>span>img,div.border4>div.right>div.bottom>div>p>span>img,div.border4>div.middle>div.bottom>div>p>span>img,
+div.right>div.end>div>p>span>img,div.border4>div.middle>div.end>div>p>span>img{
+    width: inherit;
+    height: inherit;
+}
+div.border4>div>div>div>del{
+    position: absolute;
+    left: 26px;
+    bottom: -25px;
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: iranyekanwebregular;
+}
+div.border4>div>div>div{
+    position: relative;
+}
+div.border4>div>div>div::before{
+    content: attr(disc);
+    background-color: crimson;
+    position: absolute;
+    color: #ffffff;
+    border-radius: 999px;
+    bottom: 0;
+    right: 4px;
+    width: 26px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 4px;
+    font-family: iranyekanwebregular;
+    z-index: 2;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+}
+div.border4>div.right>div.bottom,div.border4>div.middle>div.bottom,
+div.border4>div.right>div.end,div.border4>div.middle>div.end{
+    width: 560px;
+    height: 230px;
+    margin-top: 20px;
+}
+div.border4>div.right>div.bottom>div,div.border4>div.middle>div.bottom>div,
+div.border4>div.right>div.end>div,div.border4>div.middle>div.end>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+div.border4>div.right>div.bottom>div>img,div.border4>div.middle>div.bottom>div>img,
+div.border4>div.right>div.end>div>img,div.border4>div.middle>div.end>div>img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 19px;
+    display: inline-block;
+}

@@ -1,0 +1,106 @@
+div.market{
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box
+}
+div.market>div.childMarket{
+    width:95% ;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgb(234, 234, 234);
+    transition: 250ms;
+}
+div.market>div.childMarket:hover{
+    box-shadow: 2px 2px 2px lightgray;
+    transition: 250ms;
+}
+div.market>div.childMarket>div.right{
+    display: inline-block;
+    width: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+div.market>div.childMarket>div.right>img{
+    width: 76px;
+    height: 76px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+div.market > div.childMarket > div.right>svg{
+    vertical-align: middle;
+    margin-right: 30px;
+}
+div.market > div.childMarket > div.right>a{
+   width: 150px;
+   height: 40px;
+   margin-right: 20px;
+   font-size: 15px;
+   border-radius: 13px;
+   text-decoration: none;
+   color: whitesmoke;
+   display: inline-block;
+   line-height: 40px;
+   background-color:green;
+   text-align: center;
+   font-family: iranyekanwebregular;
+   vertical-align: middle;
+   transition: 300ms;
+}
+div.market > div.childMarket > div.right>a:hover{
+    transition: 300ms;
+    background-color: crimson;
+    box-shadow: 3px 3px 3px gray;
+}
+div.market > div.childMarket > div.left{
+    display: inline-block;
+}
+div.market > div.childMarket > div.left > div.image{
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+}
+div.market > div.childMarket > div.left > div.image > img{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: middle;
+      position: relative;
+}
+div.market > div.childMarket > div.left > div.image::after{
+    content: attr(data-discount);
+    display: block;
+    width: 30px;
+    height: 13px;
+    background-color: #ef394e;
+    border-radius: 99px;
+    color: #ffffff;
+    position: absolute;
+    bottom: -3px;
+    right: -2px;
+    line-height: 15px;
+    text-align: center;
+    padding: 5px;
+    z-index: 3;
+    font-size: 12px;
+}
+div.market > div.childMarket > div.left > a{
+    width: 150px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: green;
+    border-radius: 13px;
+    font-family:iranyekanwebregular;
+    font-size: 14px;
+    line-height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+}

@@ -1,0 +1,67 @@
+div.abi{
+    width: 85%;
+    height: 100px;
+    margin: 20px auto 20px auto;
+    background-color: rgb(0,114,149);
+    border-radius: 16px 16px 16px;
+    /* border: 3px solid lightgrey; */
+    box-sizing: border-box;
+    position: relative;
+}
+div.abi>div.right{
+    display: inline-block;
+    vertical-align: middle;
+}
+div.abi>div.right>img{
+    display: inline-block;
+    padding-top: 25px;
+    margin-right: 15px;
+}
+div.abi>div.left>div.ax1{
+    display: inline-block;
+    width: 295px;
+    height: 75px;
+    background-color:white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+div.abi>div.left>div.ax2{
+    display: inline-block;
+    width: 295px;
+    height: 75px;
+    background-color:white;
+    position: absolute;
+    left: 310px;
+    top: 10px;
+}
+div.abi>div.left>div.ax3{
+    display: inline-block;
+    width: 295px;
+    height: 75px;
+    background-color:white;
+    position: absolute;
+    left: 610px;
+    top: 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+div.abi>div.left>div.ax1>p,div.abi>div.left>div.ax2>p,div.abi>div.left>div.ax3>p{
+    color: black;
+    font-size: 14px;
+    font-family:iranyekanwebregular;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+div.abi>div.left>div.ax1>span>img,div.abi>div.left>div.ax2>span>img,div.abi>div.left>div.ax3>span>img{
+    position: absolute;
+    top: 28px;
+    right: 15px;
+}
+div.abi>div.left>div.ax1>img,div.abi>div.left>div.ax2>img,div.abi>div.left>div.ax3>img{
+    width: 167px;
+    height: 60px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}

@@ -1,0 +1,152 @@
+div.menu{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    margin: 3px 0;
+}
+div.menu > nav{
+    width: inherit;
+    height: inherit;
+}
+div.menu > nav > ul{
+width: 80%;
+height: inherit;
+list-style: none;
+text-align: right;
+padding-left: 10px;
+padding-right: 20px;
+}
+div.menu > nav > ul > li{
+    width: auto;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+}
+div.menu > nav > ul > li > a{
+    width: auto;
+    height: auto;
+    font-family: iranyekanwebregular;
+    font-size: 12px;
+    color:gray;
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition:350ms ;
+}
+div.menu > nav > ul > li > a:hover{
+    border-bottom: 3px solid red;
+    transition: 150ms;
+}
+div.menu > nav > ul > li > a > span{
+    font-size: 11px;
+    margin: 0 8px;
+    color:rgb(150, 150, 150);
+}
+div.menu>nav>ul>li>div.subMenu{
+    z-index: 2;
+    width: calc(100% - 40px);
+    height: 460px;
+    background-color:rgb(245, 245, 245);
+    position: absolute;
+    box-shadow: 5px 5px 5px black;
+    display: none;
+}
+div.menu>nav>ul>li:hover>div.subMenu{
+display: block;
+}
+div.menu>nav>ul>li>div.subMenu>ul{
+    direction: ltr;
+    list-style-type: none;
+    width:14%;
+    height: inherit;
+    background-color:rgb(245, 245, 245);
+    padding-left: 20PX;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-left: 2px solid rgb(211, 211, 211);
+}
+div.menu>nav>ul>li>div.subMenu>ul>li{
+    width: 100%;
+    height: 60px;
+    padding-right: 5px;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-align:right;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    font-family:iranyekanwebregular;
+    padding-right: 15px;   
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>a>span{
+    font-size: 15px;
+    margin-left: 5px;
+    color:rgb(37, 37, 37);
+    margin-right: 20px;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>a:hover,div.menu>nav>ul>li>div.subMenu>ul>li>a:hover>span{
+    background-color: rgb(224, 224, 224);
+    color: red;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>div{
+    width: 87%;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li:hover>div{
+    display: block;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>div>div{
+    display: inline-block;
+    width: 23%;
+    height: inherit;
+    vertical-align: top;
+    margin-right: 20px;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>div>div>a{
+    display: block; 
+    text-align:right;
+    font-size: 12px;
+    line-height: 40px;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-family:iranyekanwebregular;
+    transition: 100ms;
+    margin: 20px 30px;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>div>div>h5{
+    font-family:iranyekanwebregular;
+    margin: 15px 30px;
+    transition: 80ms;
+    font-size: 13px;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>div>div>h5:hover{
+    color: red;
+    transition: 80ms;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>div>div>h5>b{
+    color: red;
+    font-size: 15px;
+    margin-left: 5px;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>div>div>p{
+    margin: 14px 30px;
+    font-size: 12px;
+    font-family:iranyekanwebregular;
+    color: rgb(44, 44, 44);
+    transition: 100ms;
+}
+div.menu>nav>ul>li>div.subMenu>ul>li>div>div>p:hover{
+    color: red;
+    transition: 100ms;
+}

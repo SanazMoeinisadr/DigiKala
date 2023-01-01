@@ -1,0 +1,109 @@
+div.banafsh{
+    width: 85%;
+    height: 400px;
+    background-color: rgb(148,27,128);
+    margin: 10px auto;
+    position: relative;
+    border-radius: 17px;
+}
+div.banafsh>div.right>div.logo3{
+    margin-top: 30px;
+    margin-right: 65px;
+    display: inline-block;
+}
+div.banafsh>div.right>div.logo3>p{
+    font-size: 14px;
+    font-family: iranyekanwebregular;
+    color: white;
+    margin-top: 10px;
+}
+div.banafsh>div.right>div.logo3>h3{
+    font-size: 14px;
+    font-family: iranyekanwebregular;
+    color: white;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 20px;
+}
+div.banafsh>div.right>div.logo3>h3>span{
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+}
+div.banafsh>div.right>div.logo3>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+div.banafsh>div.right>div.logo3>div>img{
+    width: 300px;
+    height: 250px;
+}
+div.banafsh>div.middle{
+    width: 420px;
+    height: 370px;
+    background-color: white;
+    position: absolute;
+    top: 16px;
+    left: 35%;
+    border-radius: 0 15px 15px 15px;
+}
+div.banafsh>div.left{
+    width: 420px;
+    height: 370px;
+    background-color: white;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    border-radius: 15px 0 15px 15px ;
+}
+div.banafsh>div.middle>div.top,div.banafsh>div.left>div.top{
+    width: 420px;
+    height: 185px;
+}
+div.banafsh>div.middle>div.top>div>h4,div.banafsh>div.left>div.top>div>h4{
+    font-family:iranyekanwebregular;
+    margin-top: 10px;
+}
+div.banafsh>div.middle>div.top>div>h4>span,div.banafsh>div.left>div.top>div>h4>span{
+    padding-right: 17px;
+    padding-left: 7px;
+    font-size: 18px;
+    color: rgb(158, 0, 119);
+}
+div.banafsh>div.middle>div.top>div>a,div.banafsh>div.left>div.top>div>a{
+    display: block;
+    font-size: 12px;
+    color:rgb(158, 0, 119) ;
+    font-weight: bold;
+    font-family: iranyekanwebregular;
+    text-decoration: none;
+    position: relative;
+    left: -280px;
+    top: -20px;
+}
+div.banafsh>div.middle>div.top>div,div.banafsh>div.middle>div.bottom>div,div.banafsh>div.left>div.top>div,div.banafsh>div.left>div.bottom>div{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+div.banafsh>div.middle>div.top>div>img,div.banafsh>div.left>div.top>div>img{
+    width: 115px;
+    height: 115px;
+    vertical-align: middle;
+    display: inline-block;
+}
+div.banafsh>div.middle>div.bottom>div>img,div.banafsh>div.left>div.bottom>div>img{
+    width: 115px;
+    height: 115px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top:18px ;
+}
+

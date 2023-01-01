@@ -1,0 +1,52 @@
+div.offer{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+div.offer h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: iranyekanwebregular;
+    margin-bottom: 15px;
+    transition: 250ms;
+}
+div.offer h3:hover{
+    color: red;
+    transition: 250ms;
+    font-size: 23px;
+}
+div.offer>div.top,div.offer>div.bottom{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+div.offer>div.top>div,div.offer>div.bottom>div{
+    width: 14%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 1px solid lightgray;
+}
+div.offer>div.top>div>img,div.offer>div.bottom>div>img{
+    width: 50%;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    transition: 400ms;
+}
+div.offer>div.top>div>img:hover{
+    box-shadow: 3px 3px 3px gray;
+    transition: 250ms;
+}
+div.offer>div.bottom>div>img:hover{
+    box-shadow: 6px 3px 3px gray;
+    transition: 250ms;
+}
+div.offer>div.top>div>p,div.offer>div.bottom>div>p{
+    font-size: 12px;
+    font-family:iranyekanwebregular;
+}
+div.offer>div.top>div:last-of-type,div.offer>div.bottom>div:last-of-type{
+    border: unset;
+}

@@ -1,0 +1,82 @@
+div.digiend{
+    width: 100%;
+    height: 310px;
+    border-top: 1px solid rgb(233, 233, 233);;
+    position: relative;
+}
+div.digiend>.logo9{
+    position: absolute;
+    top: 30px;
+    right: 12px;
+}
+div.digiend>div.mtn0{
+    position: absolute;
+    top: 95px;
+    right: 25px;
+}
+div.digiend::after{
+    content: " ";
+    background-color: lightgray;
+    width: 2px;
+    height:17px;
+    position: absolute;
+    top: 94px;
+    right:208px;
+}
+div.digiend>div.mtn0>p,div.digiend>div.mtn1>p{
+    font-family: iranyekanwebregular;
+    color: rgb(46, 46, 46);
+    font-size: 12.5px;
+}
+div.digiend>div.mtn1{
+    position: absolute;
+    top: 95px;
+    right: 230px;
+}
+div.digiend>div.logo10{
+    width: 100%;
+    position: absolute;
+    top: 170px;
+    display: inline-block;
+}
+div.digiend>div.logo10>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+div.digiend>div.logo10>div>img{
+    position: relative;
+    width: 140px;
+    height: 60px;
+    vertical-align: middle;
+    display: inline-block;
+    right: 135px;
+}
+div.digiend>div.logo10>.mtn2{
+    position:relative;
+    top:55px;
+    left: -4px;
+}
+div.digiend>div.logo10>.mtn3{
+    position:relative;
+    top:55px;
+    left: -10px;
+}
+div.digiend>div.logo10>.mtn4{
+    position:relative;
+    top:55px;
+    left: -8px;
+}
+div.digiend>div.logo10>.mtn5{
+    position:relative;
+    top:55px;
+    right: -12px;
+}
+div.digiend>div.logo10>.mtn6{
+    position:relative;
+    top:55px;
+}
+div.digiend>div.logo10>.mtn2>p,div.digiend>div.logo10>.mtn3>p,div.digiend>div.logo10>.mtn4>p,div.digiend>div.logo10>.mtn5>p,div.digiend>div.logo10>.mtn6>p{
+    font-family: iranyekanwebregular;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+}

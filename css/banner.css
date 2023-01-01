@@ -1,0 +1,112 @@
+div.banner>input[type=text]{
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    padding-right: 40px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 16px 16px 16px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    transition: 350ms;
+    margin: 30px 15px 15px 15px;
+    outline: none;
+}
+div.banner>input[type=text]>span{
+    font-size: 12px;
+    margin: 30px 15px 15px 15px;
+}
+div.banner>input[type=text]::placeholder{
+    font-size: 15px;
+    font-family:iranyekanwebregular ;
+    color: rgb(189, 189, 189);
+}
+div.banner>input:hover{
+    width: 35%;
+    transition: 250ms;
+    border: unset;
+    box-shadow: 3px 3px 3px gray;
+}
+div.banner>input[type=text]:focus{
+    outline: none;
+    transition: 300ms;
+}
+div.banner>div.shahr{
+    width: 15%;
+    height: 40px;
+    position: relative;
+    top: 48px;
+    left:-1280px;
+}
+div.banner>div.shahr>img{
+    position: absolute;
+    left: 185px;
+    margin-top: 5px;
+}
+div.banner>div.shahr>p{
+    font-family: iranyekanwebregular;
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    margin-top: 10px;
+}
+div.modal-1{
+    position: relative;
+    right: 500px;
+    width: 400px;
+    height: 470px;
+    background-color: white;
+    border-radius: 11px;
+    margin-bottom: 15px;
+    border:2px solid lightgray;
+}
+div.modal-1>div.select{
+    width: inherit;
+    display: inline-block;
+    border-bottom: 1px solid lightgrey;
+}
+div.modal-1>div.select>img{
+    position: relative;
+    left: -350px;
+    top:-23px;
+}
+div.modal-1>div.select>h3{
+    font-family: iranyekanwebregular;
+    font-size: 15px;
+    margin-right: 23px;
+    margin-top: 15px;
+}
+.modal-1>div.makan{
+    width: inherit;
+    display: inline-block;
+}
+div.modal-1>div.makan>h3{
+    font-family: iranyekanwebregular;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-top: 15px;
+    color: rgb(36,192,214);
+}
+div.modal-1>div.makan>img{
+    margin-right: 10px;
+    position: relative;
+    top: -22px;
+}
+div.modal-1>div.nam{
+    width: inherit;
+    height: 310px;
+    overflow-y: scroll;
+    background-color: white;
+    border-radius: 11px;
+}
+div.modal-1>div.nam>p{
+    font-family: iranyekanwebregular;
+    font-size: 14px;
+    margin-right: 7px;
+    margin-left: 7px;
+    border-bottom: 1px solid lightgrey;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    font-weight:bold;
+    color: rgb(51, 51, 51);
+
+}
