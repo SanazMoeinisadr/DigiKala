@@ -1,5 +1,4 @@
 *,::before,::after{
-    font-family:iranyekanwebregular ;
     margin: 0;
     padding: 0;
 }
@@ -13,6 +12,7 @@ div.wrapper{
 }
 /* make scroll */
 body{
+    font-family:iranyekanwebregular ;
     min-height: 2000px;
 }
 ::-webkit-scrollbar{
