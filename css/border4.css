@@ -118,7 +118,7 @@ div.border4>div.middle>div.top::before{
 div.border4>div.end{
     width: 600px;
     height: 260px;
-    margin-right: 35px;
+    margin-right: 5px;
     margin-top: 25px;
     position: absolute;
     display: inline-block;

@@ -22,7 +22,7 @@ div.offer>div.top,div.offer>div.bottom{
     box-sizing: border-box;
 }
 div.offer>div.top>div,div.offer>div.bottom>div{
-    width: 14%;
+    width: 13.790%;
     display: inline-block;
     text-align: center;
     padding: 20px;
@@ -30,7 +30,7 @@ div.offer>div.top>div,div.offer>div.bottom>div{
     border-left: 1px solid lightgray;
 }
 div.offer>div.top>div>img,div.offer>div.bottom>div>img{
-    width: 50%;
+    width: 40%;
     margin-bottom: 5px;
     border-radius: 50%;
     transition: 400ms;
