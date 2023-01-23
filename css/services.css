@@ -43,3 +43,6 @@ div.services > div > a {
 div.services > div > a:visited{
   all: unset;
 }
+div.services > div > a:link{
+  all: unset;
+}
