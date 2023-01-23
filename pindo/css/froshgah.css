@@ -1,0 +1,106 @@
+div.froshgah{
+    width: 90%;
+    height: 300px;
+    border: 1px solid lightgray;
+    margin: 50px auto;
+    border-radius: 15px;
+    margin-top: 5px;
+    position: relative;
+}
+div.froshgah>div.mtn15{
+    margin-top: 30px;
+    margin-right: 70px;
+}
+div.froshgah>div.icon{
+    margin-right: 20px;
+    position: absolute;
+    top: 32px;
+}
+div.froshgah>div.saat{
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+div.froshgah>div.style{
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 80px;
+    left: 474px;
+}
+div.froshgah>div.link{
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 80px;
+    left: 920px;
+
+}
+div.froshgah>div.saat>h3{
+    font-family: iranyekanwebregular;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+div.froshgah>div.style>h3{
+    font-family: iranyekanwebregular;
+    margin-top: 30px;
+    margin-right: 240px;
+
+}
+div.froshgah>div.link>h3{
+    font-family: iranyekanwebregular;
+    margin-top: 30px;
+    margin-right: 240px;
+
+}
+div.froshgah>div.saat>div.im1,div.froshgah>div.style>div.im2,div.froshgah>div.link>div.im3{
+    vertical-align: middle;
+    display: inline-block;
+}
+div.froshgah>div.saat>div.im1>img{
+    width: 190px;
+    height: 110x;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+}
+div.froshgah>div.style>div.im2>img{
+    width: 60px;
+    height: 55px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    right: 95px;
+}
+div.froshgah>div.link>div.im3>img{
+    width: 78px;
+    height: 69px;
+    border-radius: 8px;
+    position: absolute;
+    top: 7px;
+    right: 70px;
+
+}
+div.froshgah>div.saat>div.bottom,div.froshgah>div.style>div.bottom,div.froshgah>div.link>div.bottom{
+    display: inline-block;
+}
+div.froshgah>div.saat>div.bottom>div,div.froshgah>div.style>div.bottom>div,div.froshgah>div.link>div.bottom>div{
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25PX;  
+}
+div.froshgah>div.saat>div.bottom>div>img,div.froshgah>div.style>div.bottom>div>img,div.froshgah>div.link>div.bottom>div>img{
+    width:65px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+}

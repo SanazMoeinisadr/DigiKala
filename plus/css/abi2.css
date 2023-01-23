@@ -1,0 +1,66 @@
+div.abi2{
+    width: 98%;
+    margin: 15px auto;
+    margin-top: 10px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(60,75,109);
+    position: relative;
+    margin-bottom: 50px;
+}
+div.abi2>div.right{
+    position: absolute;
+    right: 15px;
+    top: 14px;
+}
+div.abi2>div.right>img{
+    width: 50px;
+    height: 50px;
+}
+div.abi2>h3{
+    position: absolute;
+    top: 24px;
+    right: 100px;
+    color: white;
+    font-family: iranyekanwebregular;
+}
+div.abi2>div.left{
+    width: 730px;
+    height: 80px;
+    margin-top: 4px;
+    position: absolute;
+    left: 5px;
+    display: inline-block;
+}
+div.abi2>div.left>div{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.abi2>div.left>div>img{
+    width: 142px;
+    height: 43px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+div.abi2 >div.left>div.last{
+    display: inline-block;
+    vertical-align: middle;
+    width: 52px;
+    height: 50px;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+}
+div.abi2 >div.left>div.last>p{
+    position: relative;
+    top: -25px;
+    left:4px;
+    display: inline-block;
+    position: absolute;
+    font-size: 60px;
+    color: black;
+    border-radius: 50%;
+}

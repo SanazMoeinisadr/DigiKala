@@ -1,0 +1,66 @@
+div.akhar{
+    width: 100%;
+    height: 170px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 150px;
+    position: relative;
+}
+div.akhar>div.top{
+    width: 100%;
+    height: 35px;
+}
+div.akhar>div.top>img{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+div.akhar>div.top>div.mtn7{
+    vertical-align: middle;
+    width: 140px;
+    height: 50px;
+    border: 1px solid rgb(212, 212, 212);
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+    margin-top: 25px;
+}
+div.akhar>div.top>div.mtn7>p{
+    color: rgb(138, 138, 138);
+    font-family: iranyekanwebregular;
+    text-align: center;
+    margin-top: 12px;
+}
+div.akhar>div.bottom{
+    vertical-align: middle;
+    width: 90%;
+    height: 35px;
+    margin-top: 50px;
+    margin-right: 20px;   
+}
+div.akhar>div.bottom::after{
+    content: " ";
+    width: 2px;
+    height:17px;
+    background-color: lightgray;
+    position: absolute;
+    top: 83px;
+    left: 1320px;
+}
+div.akhar>div.bottom>div.mtn8{
+    position:absolute;
+    top:85px;
+}
+div.akhar>div.bottom>div.mtn9{
+    position:absolute;
+    top:85px;
+    left:940px;
+}
+div.akhar>div.bottom>.mtn8>p,.mtn9>p{
+    font-family: iranyekanwebregular;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+}
+

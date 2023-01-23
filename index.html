@@ -9,24 +9,19 @@
     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"> 
 </head>
 <body>  
-  <!-- <input type="radio" name="modal" id="show" >
-  <input type="radio" id="close" name="modal"> -->
     <!--start project-->  
     <div class="wrapper">
         <header></header>
         <!--make banner-->
         <div class="banner">
         <img class="logo" src="./images/logo1.svg"/>
-        <!-- <span class="fa-solid fa-magnifying-glass"></span> -->
         <label for="fullName"></label>
         <input type="text" name="fullName" placeholder="  جستجو    ">
-          </div>
           <div class="shahr">
             <p>لطفا شهر خود را انتخاب کنید</p>
             <img src="./images/shahr.svg" alt="">
           </div>
-        </div>
-          <!-- <div class="modal-1">
+          <div class="modal">
             <div class="select">
               <h3>انتخاب شهر</h3>
               <img src="./images/close.svg" alt="">
@@ -68,10 +63,10 @@
               <p>همدان</p>
               <p>یزد</p>
             </div>
-            <label for="close"></label>
-          </div> -->
-        <!--end banner-->
-           <!--make menu-->  
+          </div> 
+        </div>
+        <!--end banner -->
+           <!-- make menu  --> 
         <div class="menu">
             <nav>
                 <ul>
@@ -772,8 +767,10 @@
           <p>خرید اقساطی</p>
         </div>
         <div>
-          <img src="./images/services/4.png" alt="" />
-          <p>پیندو</p>
+          <a href="./pindo/pindo.html">
+            <img src="./images/services/4.png" alt="" />
+            <p>پیندو</p>
+          </a>
         </div>
         <div>
           <img src="./images/services/5.png" alt="" />
@@ -784,8 +781,10 @@
           <p>چرخ و بخت</p>
         </div>
         <div>
-          <img src="./images/services/7.png" alt="" />
+          <a href="./plus/plus.html">
+            <img src="./images/services/7.png" alt="" />
           <p>دیجی پلاس</p>
+          </a>
         </div>
         <div>
           <div class="last">
@@ -1803,6 +1802,18 @@
           prevEl: ".swiper-button-prev4",
         },
       });
+      </script>
+      <script>
+        let bannerModal=document.querySelector("div.banner>div.modal")
+        let modal=document.querySelector("div.banner>div.shahr")
+        modal.addEventListener("click",function(){
+        bannerModal.classList.toggle("active")
+        });
+        let closeBanner=document.querySelector("div.banner>div.modal")
+        let closeb=document.querySelector("div.select>img")
+        closeb.addEventListener("click",function(){
+        bannerModal.classList.toggle("active")
+        });
       </script>
 </body>
 </html>

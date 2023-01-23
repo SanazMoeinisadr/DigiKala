@@ -1,0 +1,128 @@
+div.mazaya{
+    margin-top: 900px;
+    width: 100%;
+    height: 770px;
+    position: relative;
+}
+div.mazaya>h2{
+    text-align: center; 
+}
+div.mazaya>img{
+    right: 630px;
+    top: 5px;
+    position: absolute;
+}
+div.mazaya>div.top{
+    width: 100%;
+    height: 350px;
+    vertical-align: middle;
+    position: relative;
+}
+div.mazaya>div.bottom{
+    width: 100%;
+    height: 350px;
+    vertical-align: middle;
+    position: relative;
+}
+div.mazaya>div.top>div.titr,div.mazaya>div.bottom>div.titr3{
+    width: 500px;
+    height: 300px;
+    top: 40px;
+    right: 10px;
+    position: absolute;
+}
+div.mazaya>div.top>div.titr1,div.mazaya>div.bottom>div.titr4{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin-right: 500px;
+    top:40px;
+}
+div.mazaya>div.top>div.titr2,div.mazaya>div.bottom>div.titr5{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin-right: 1000px;
+    top:40px;
+}
+div.mazaya>div.top>div.titr>img,div.mazaya>div.top>div.titr1>img,div.mazaya>div.top>div.titr2>img,
+div.mazaya>div.bottom>div.titr3>img,div.mazaya>div.bottom>div.titr4>img,div.mazaya>div.bottom>div.titr5>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 16px;
+    right: 60px;
+}
+div.mazaya>div.top>div.titr>h3,div.mazaya>div.top>div.titr1>h3,div.mazaya>div.top>div.titr2>h3,
+div.mazaya>div.bottom>div.titr3>h3,div.mazaya>div.bottom>div.titr4>h3,div.mazaya>div.bottom>div.titr5>h3{
+    text-align: right;
+    position: absolute;
+    right: 100px;
+    margin-top: 20px;
+}
+div.mazaya>div.top>div.titr>p,div.mazaya>div.top>div.titr1>p,div.mazaya>div.top>div.titr2>p,
+div.mazaya>div.bottom>div.titr3>p,div.mazaya>div.bottom>div.titr4>p,div.mazaya>div.bottom>div.titr5>p{
+    font-size: 14px;
+    top: 60px;
+    right: 60px;
+    position: absolute;
+}
+div.mazaya>div.top>div.axtitr,div.mazaya>div.top>div.axtitr1,div.mazaya>div.top>div.axtitr2,
+div.mazaya>div.bottom>div.axtitr3,div.mazaya>div.bottom>div.axtitr4,div.mazaya>div.bottom>div.axtitr5{
+    display: inline-block;
+    vertical-align: middle;
+}
+div.mazaya>div.top>div.axtitr>img,div.mazaya>div.bottom>div.axtitr3>img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 400px;
+    height: 220px;
+    position: absolute;
+    top: 140px;
+    right: 20px;
+}
+div.mazaya>div.top>div.axtitr1>img,div.mazaya>div.bottom>div.axtitr4>img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 400px;
+    height: 220px;
+    position: absolute;
+    top: 119px;
+    right: 560px;
+}
+div.mazaya>div.top>div.axtitr2>img,div.mazaya>div.bottom>div.axtitr5>img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 360px;
+    height: 220px;
+    position: absolute;
+    top: 140px;
+    left: 90px;
+}
+div.mazaya::after{
+    content: " ";
+    height: 1px;
+    width: 95%;
+    top: 400px;
+    right: 40px;
+    position: absolute;
+    background-color: lightgrey;
+}
+div.mazaya>div.top>div.titr::after{
+    content: " ";
+    width: 1px;
+    height: 720px;
+    top: -40px;
+    right: 500px;
+    position: absolute;
+    background-color: lightgrey;
+}
+div.mazaya>div.top>div.titr::before{
+    content: " ";
+    width: 1px;
+    height: 720px;
+    top: -40px;
+    left: -500px;
+    position: absolute;
+    background-color: lightgray;
+}

@@ -5,7 +5,9 @@
 div.wrapper{
     width: 100%;
 }
-
+.active{
+    display: block !important;
+}
 @font-face {
     font-family:iranyekanwebregular ;
     src: url("../font/iranyekanwebregular.e31c09af.woff2");
@@ -22,8 +24,4 @@ body{
 ::-webkit-scrollbar-thumb{
     background-color: rgb(209, 209, 209);
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }

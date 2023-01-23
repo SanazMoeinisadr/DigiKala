@@ -1,0 +1,28 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+}
+div.wrapper{
+    width: 100%;
+}
+
+@font-face {
+    font-family:iranyekanwebregular ;
+    src: url("../font/iranyekanwebregular.e31c09af.woff2");
+}
+body{
+    font-family:iranyekanwebregular;
+}
+/* make scroll */
+body{
+    min-height: 2000px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(243, 243, 243);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+}
+/* end scroll */

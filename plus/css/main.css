@@ -1,0 +1,62 @@
+@import"matn.css";
+@import"pelus.css";
+@import"setting.css";
+@import"border.css";
+@import"soud.css";
+@import "abi.css";
+@import "banner.css";
+@import "menu.css";
+@import "digiend.css";
+@import "digiend2.css";
+@import "border5.css";
+@import "last.css";
+@import "abi2.css";
+@import "mazaya.css";
+@import "shenavande.css";
+@import "porsesh.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* make matn */
+
+div.matn{
+    width: 10%;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 16px;
+    margin-bottom: 1px;
+    position: relative;
+}
+div.matn>p{
+    font-family: iranyekanwebregular;
+    font-size: 15px;
+    color: rgb(148,27,128);
+    position: absolute;
+    left:-1320px;
+    top: 3px;
+    font-weight: 600;
+}
+/* end matn */
+
+/* make header*/
+
+div.wrapper header{
+    width: 100%;
+    height: 55px;
+    background: url('../images/im1.jpg') no-repeat;
+    background-size: cover;
+}
+/* end header*/
+
+/* make logo*/
+
+div.banner > img.logo{
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align:middle;
+}
+/* end logo*/

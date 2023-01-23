@@ -1,0 +1,43 @@
+div.shenavande{
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    top: 50px;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 130px;
+    background-color: rgb(240, 226, 238);
+}
+div.shenavande>h1{
+    color: rgb(148,27,128);
+    position: absolute;
+    top: 28px;
+    right: 190px;
+}
+div.shenavande>p{
+    color: black;
+    position: absolute;
+    top: 39px;
+    right: 530px;
+}
+div.shenavande>img{
+    position: absolute;
+    top: 23px;
+    right: 50px;
+}
+div.shenavande>.felesh{
+    top: 18px;
+    left:50px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: white;
+}
+div.shenavande>div.felesh>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 14px;
+    right: 15px;
+}

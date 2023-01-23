@@ -1,0 +1,38 @@
+div.akhar3{
+    width: 95%;
+    margin: 50px auto;
+    height: 75px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    margin-bottom: 50px;
+}
+div.akhar3>div.left{
+    width: 730px;
+    height: 80px;
+    margin-top: 4px;
+    position: absolute;
+    left: 5px;
+    display: inline-block;
+}
+div.akhar3>div.left>div{
+    position: relative;
+    bottom: 0px;
+    right: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.akhar3>div.left>div>img{
+    width: 142px;
+    height: 43px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+    div.akhar3>h3{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: black;
+    font-family: iranyekanwebregular;
+}

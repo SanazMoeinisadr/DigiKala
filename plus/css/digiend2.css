@@ -1,0 +1,86 @@
+div.digiend2{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+div.digiend2>.mtn0{
+    width: 300px;
+    height: 400px;
+    margin-right: 15px;
+    line-height: 35px;
+}
+div.digiend2>.mtn1{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    right: 350px;
+    top: 0;
+    line-height: 35px;
+}
+div.digiend2>.mtn2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 450px;
+    top: 0;
+    line-height: 35px;
+}
+div.digiend2>.mtn3{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 80px;
+    top: 0;
+    line-height: 35px;
+}
+div.digiend2>.mtn4{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 35px;
+    top: 130px;
+}
+div.digiend2>.mtn0>h4,div.digiend2>.mtn1>h4,div.digiend2>.mtn2>h4,div.digiend2>.mtn3>h4{
+    font-family: iranyekanwebregular;
+    margin: 12px;
+}
+div.digiend2>.mtn4>h4{
+    font-family: iranyekanwebregular;
+    margin: 12px;
+    color: rgb(87, 87, 87);
+}
+div.digiend2>.mtn0>p,div.digiend2>.mtn1>p,div.digiend2>.mtn2>p{
+    font-family: iranyekanwebregular;
+    color: gray;
+    font-size: 15px;
+    margin: 15px;
+}
+div.digiend2>div.email>input[type=text]{
+    position: absolute;
+    display: inline-block;
+    width: 230px;
+    height: 50px;
+    left: 150px;
+    top: 180px;
+    padding-right: 20px;
+    background-color: rgb(237, 237, 237);
+    border-radius:10px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    outline: none;
+}
+div.digiend2>div.email>input[type=text]::placeholder{
+    font-size: 15px;
+    font-family:iranyekanwebregular ;
+    color: rgb(189, 189, 189);
+}
+div.digiend2>div.icon{
+    position: absolute;
+    left: 120px;
+    top: 80px;
+    font-size: 36px;
+    color: rgb(179, 179, 179);
+}
+div.digiend2>div.icon>span{
+    padding-right: 30px;
+}

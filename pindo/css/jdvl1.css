@@ -1,0 +1,154 @@
+div.jdvl1{
+    width: 85%;
+    height: 860px;
+    margin: 75px auto;
+    border-radius: 15px;
+    position: relative;   
+    margin-bottom: 450px; 
+}
+div.jdvl1>div.nvshte{
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    bottom: -385px;
+}
+div.jdvl1>div.nvshte>a{
+    font-family: iranyekanwebregular;
+    color:rgb(56, 193, 218);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+div.jdvl1>div.logo8>img{
+    position: absolute;
+    left: 780px;
+    top: 25px;
+    display: inline-block;
+}
+div.jdvl1>div.logo8>h3{
+    text-align: center;
+    font-family: iranyekanwebregular;
+    margin-top:22px;
+}
+div.jdvl1>div.top{
+    width: 1300px;
+    height: 360px;
+    margin-top:30px ;
+    display: inline-block;
+}
+div.jdvl1>div.top>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+div.jdvl1>div.top>div>img{
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    vertical-align: middle;
+    border-radius: 19px;
+    display: inline-block;
+}
+div.jdvl1>div.middle{
+    width: 1300px;
+    height: 360px;
+    margin-top:30px ;
+    display: inline-block;
+}
+div.jdvl1>div.middle>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+div.jdvl1>div.middle>div>img{
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    vertical-align: middle;
+    border-radius: 19px;
+    display: inline-block;
+}
+div.jdvl1>div.bottom{
+    width: 1300px;
+    height: 360px;
+    margin-top:30px ;
+    display: inline-block;
+}
+div.jdvl1>div.bottom>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+div.jdvl1>div.bottom>div>img{
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    vertical-align: middle;
+    border-radius: 19px;
+    display: inline-block;
+}
+div.jdvl1>div.top::before{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width: 97%;
+    height: 1px;
+    position: absolute;
+    top: 410px;
+    right: 19px;
+}
+div.jdvl1>div.bottom::before{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width: 97%;
+    height: 1px;
+    position: absolute;
+    top: 810px;
+    right: 19px;
+}
+div.jdvl1>div.top::after{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width: 1px;
+    height: 1130px;
+    position: absolute;
+    top: 30px;
+    left: 975px;
+}
+div.jdvl1>div.bottom::after{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width: 1px;
+    height: 1130px;
+    position: absolute;
+    top: 30px;
+    left: 660px;
+}
+div.jdvl1>div.middle::after{
+    content: " ";
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width: 1px;
+    height: 1130px;
+    position: absolute;
+    top: 30px;
+    left: 345px;
+}
+div.jdvl1>div.top>div>p,div.jdvl1>div.middle>div>p,div.jdvl1>div.bottom>div>p{
+    font-family: iranyekanwebregular;
+    font-size: 18px;
+    text-align:left;
+    font-weight: 500;
+    position: relative;
+    left: 40px;
+}
+div.jdvl1>div.top>div>h4,div.jdvl1>div.middle>div>h4,div.jdvl1>div.bottom>div>h4{
+    font-family: iranyekanwebregular;
+    position: relative;
+    text-align: right;
+    right: 15px;
+
+}

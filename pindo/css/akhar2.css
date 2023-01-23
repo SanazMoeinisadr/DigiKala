@@ -1,0 +1,38 @@
+div.akhar2{
+    width: 98%;
+    height: 250px;
+    margin-right: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+div.akhar2>.mtn10>h4,div.akhar2>.mtn12>h4{
+    font-family: iranyekanwebregular;
+    margin-bottom: 15px;
+}
+div.akhar2>div.mtn11>p,div.akhar2>div.mtn13>p{
+    font-family: iranyekanwebregular;
+    margin-bottom: 12px;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+div.akhar2>div.mtn12{
+    position: absolute;
+    right: 300px;
+    top: 1px;
+}
+div.akhar2>div.mtn13{
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+div.akhar2>img{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 20px;
+    width: 82px;
+    height: 90px;
+    position: absolute;
+    left:20px;
+    top: 1px;
+}

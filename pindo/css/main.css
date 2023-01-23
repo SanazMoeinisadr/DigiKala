@@ -1,0 +1,28 @@
+@import "header.css";
+@import "mini.css";
+@import "froshgah.css";
+@import "new.css";
+@import "akhar.css";
+@import "jdvl1.css";
+@import "akhar2.css";
+@import "akhar3.css";
+@import "setting.css";
+@import "froshgah.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    border-top: 1px solid lightgray;
+    margin-top:40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer>p{
+    color: rgb(155, 155, 155);
+    margin-top: 50px;
+    font-family: iranyekanwebregular;
+    text-align: center;
+    font-size: 13px;
+}

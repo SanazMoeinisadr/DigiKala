@@ -1,0 +1,24 @@
+div.porsesh{
+    width: 96%;
+    height: 400px;
+    margin-bottom: 40px;
+    margin-top: 140px;
+    margin: 80px auto;
+    position: relative;
+}
+div.porsesh>h1{
+    text-align: center;
+}
+div.porsesh>div.por1,div.por2,div.por3,div.por4,div.por5,div.por6{
+    margin-top: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+div.porsesh>div.por1>p,div.por2>p,div.por3>p,div.por4>p,div.por5>p,div.por6>p{
+    font-size: 15px;
+}
+div.porsesh>div.por1>img,div.por2>img,div.por3>img,div.por4>img,div.por5>img,div.por6>img{
+    position: relative;
+    left: -1390px;
+    top: 5px;
+
+}

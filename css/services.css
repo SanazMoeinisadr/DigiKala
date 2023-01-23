@@ -9,7 +9,7 @@ div.services > div {
   display: inline-block;
   margin: 0 50px;
 }
-div.services > div > img {
+div.services > div  img {
   width: 52px;
   height: 52px;
 }
@@ -27,9 +27,19 @@ div.services > div > div.last > span {
   background-color: grey;
   border-radius: 50%;
 }
-div.services > div > p {
+div.services > div  p {
   text-align: center;
   font-family: iranyekanwebregular;
   font-size: 12px;
-  padding-top: 10px;
+  margin-top: 10px;
+}
+div.services > div > a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: iranyekanwebregular;
+  font-size: 12px;
+}
+div.services > div > a:visited{
+  all: unset;
 }

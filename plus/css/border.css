@@ -1,0 +1,74 @@
+div.border{
+    width: 95%;
+    height: 120px;
+    background-color: rgb(148,27,128);
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: -60px;
+}
+div.border>div.logo10{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    display: inline-block;
+}
+div.border>div.logo10>div{
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.border>div.logo10>div>img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    right: 110px;
+}
+div.border>div.logo10>.mtn2{
+    position:relative;
+    top:40px;
+    right:34px;
+}
+div.border>div.logo10>.mtn3{
+    position:relative;
+    top:40px;
+    right:40px;
+}
+div.border>div.logo10>.mtn4{
+    position:relative;
+    top:40px;
+    right:40px;
+}
+div.border>div.logo10>.mtn5{
+    position:relative;
+    top:40px;
+    right: 9px;
+}
+div.border>div.logo10>.mtn6{
+    position:relative;
+    top:40px;
+    right: 23px;
+}
+div.border>div.logo10>.mtn7{
+    position:relative;
+    top:40px;
+    right: 10px;
+}
+div.border>div.logo10>.mtn8{
+    position:relative;
+    top:40px;
+    right: 25px;
+}
+div.border>div.logo10>.mtn9{
+    position:relative;
+    top:40px;
+    right:40px;
+}
+div.border>div.logo10>.mtn2>p,div.border>div.logo10>.mtn3>p,div.border>div.logo10>.mtn4>p,div.border>div.logo10>.mtn5>p,div.border>div.logo10>.mtn6>p,div.border>div.logo10>.mtn7>p,div.border>div.logo10>.mtn7>p,div.border>div.logo10>.mtn8>p,div.border>div.logo10>.mtn9>p{
+    font-family: iranyekanwebregular;
+    font-size: 12px;
+    color: white;
+}
